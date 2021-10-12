@@ -21,7 +21,7 @@ export const LoginScreen = () => {
         dispatch(startLoginEmailPass(email, password));
     }
     const sumitGoogle = (e) => {
-        dispatch(startGoogleLogin());
+        dispatch(startGoogleLogin()); 
     }
     return (
         <>
